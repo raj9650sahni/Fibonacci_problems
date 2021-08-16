@@ -43,15 +43,15 @@ def fibo(n):
     
     
     
-    #here i have created another list to add modified elements in this list like add 4 in even numbers and 3 in odd numbers
-    addList = []   
-    for num in ans:
-        if num%2==0:
-            addList.append(num + 4)
+    #here i have  modified elements in this list like add 4 in even numbers and 3 in odd numbers
+   
+    for i in range(len(ans)):
+        if ans[i]%2==0:
+            ans[i] = ans[i] + 4
         else:
-            addList.append(num + 3)
+             ans[i] = ans[i] + 3
             
-    print("After adding 4 and 3 : ",addList)
+    print("After adding 4 and 3 : ",ans)
     
 
 print(fibo(n))
