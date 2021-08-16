@@ -1,5 +1,5 @@
 ''' 
-First of all I have done this problems in python language as i am much more comfortable in python.
+Hello sir I have done this problems in python language as i am much more comfortable in python.
 Here is the four mentioned problems in a single function
 '''
 
@@ -43,7 +43,7 @@ def fibo(n):
     
     
     
-    #here i have created another list to add modified elements in this list
+    #here i have created another list to add modified elements in this list like add 4 in even numbers and 3 in odd numbers
     addList = []   
     for num in ans:
         if num%2==0:
